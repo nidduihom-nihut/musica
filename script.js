@@ -20,9 +20,9 @@ let status;
 
 login.addEventListener('click', function log(){
     if(cheack() && username.value === "tuhin"){
-        window.open('tuhin.html')
+        window.open('site/tuhin.html')
     }else if(cheack() && username.value == "tuhmo"){
-        window.open('tuhmo.html')
+        window.open('site/tuhmo.html')
     }
     else{
         console.log("false")
