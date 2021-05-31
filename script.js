@@ -25,7 +25,7 @@ login.addEventListener('click', function log(){
         window.open('site/tuhmo.html')
     }
     else{
-        console.log("false")
+        window.open('false.html')
     }
 })
 
