@@ -20,14 +20,23 @@ let status;
 
 login.addEventListener('click', function log(){
     if(cheack() && username.value === "tuhin"){
-        window.open('../pages/tuhin.html')
+        window.open('pages/tuhin.html')
     }else if(cheack() && username.value == "tuhmo"){
-        window.open('../pages/tuhmo.html')
+        window.open('pages/tuhmo.html')
     }
     else{
         window.open('false.html')
     }
 })
+
+
+
+
+
+
+
+
+
 
 
 
