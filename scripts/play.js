@@ -1,8 +1,8 @@
 let oursong = document.querySelector("#our-song");
 let sheykijane = document.querySelector("#sheykijane");
 let tuyo = document.querySelector("#tuyo");
-let stop =document.querySelectorAll("#stop");
-
+let buton = document.querySelectorAll(".stopBtn");
+let status;
 
 let oursongAn = new Audio("../music/our song.mp3");
 let sheykijaneAn = new Audio("../music/sheykijane.mp3");
@@ -21,10 +21,15 @@ function play() {
     })
 }
 
+
+play()
+
+
 function stopMusic() {
-    play().exit()
+   
 }
 
 
-play()
-stop.addEventListener('click', stopMusic());
+
+
+
